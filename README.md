@@ -7,7 +7,7 @@
 - Tharllyene Soares
 
 👨🏻‍💻 **Back-end:**
-- Matheus
+- Matheus Henrique
 - Tharllyene Soares
 
 🧑🏻‍🎨 **Design:**
