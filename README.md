@@ -17,7 +17,6 @@ alimentar, física e etc. Ou seja, nosso site é voltado para o autocuidado com 
 - Tharllyene Soares
 
 🧑🏻‍🎨 **Design:**
-- Brenda Souza
 - Isabelle Victoria
 - Rebeca Alves
 - Raissa Karoliny
