@@ -4,6 +4,42 @@ body {
     color: #DFEBE6;
 }
 
+.navbar{
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 170px;
+}
+
+.logo2{
+    position: absolute;
+    left: 13.06%;
+    top: 15px;
+}
+
+.vector{
+    position: absolute;
+    left: 72.85%;
+    right: 23.68%;
+    top: 15px;
+    bottom: 22.5%;
+}
+
+.layout{
+    position: absolute;
+    width: 47px;
+    height: 48px;
+    left: 79.89%;
+    top: 15px;
+}
+
+.vector2{
+    position: absolute;
+    left: 86.94%;
+    right: 9.58%;
+    top: 15px;
+    bottom: 15%;
+}
+
 footer {
     height: 100%;
     width: 100%;
