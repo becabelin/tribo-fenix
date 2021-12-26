@@ -1,1 +1,27 @@
-Arquivos de estilo
+body {
+    background-color: #1d1e1a;
+    font-family: 'Roboto', sans-serif;
+    color: #DFEBE6;
+}
+
+footer {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #1d1e1a;
+    padding: 40px 0;
+}
+
+.links {
+    padding: 8px 0;
+}
+
+.links img {
+    padding: 8px;
+}
+
+.copyright {
+    color: #DFEBE6;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
