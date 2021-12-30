@@ -1,0 +1,131 @@
+h1 {
+    color: #09B0E5;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    margin-top: 170px;
+}
+
+main p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 34px;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.formulario {
+    display: inline-block;
+    text-align: center;
+    width: 1200px;
+    height: 1240px;
+    margin: 120px 5%;
+    vertical-align: top;
+    border: 3px solid #09B0E5;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.dadosformulario {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.quadroformulario {
+    width: 950px;
+    height: 55px;
+    background: #C4C4C4;
+    border-radius: 4px;
+    margin-left: 125px;
+}
+
+.quadro2formulario {
+    width: 950px;
+    height: 349px;
+    background: #C4C4C4;
+    border-radius: 4px;
+    margin-left: 125px;
+}
+
+.enviar {
+    border-color: #09B0E5;
+    border-radius: 0;
+    color: #09B0E5;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+}
+
+.enviar:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #09B0E5;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+}
+
+.enviar:hover {
+    color: #FFFFFF;
+}
+
+.enviar:hover:after {
+    width: 110%;
+}
+
+.enviar {
+    border: 0;
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    margin: 0 0 100px 470px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 40px;
+    background-color: #1d1e1a;
+}
+
+footer {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #1d1e1a;
+    padding: 40px 0;
+}
+
+.links {
+    padding: 8px 0;
+}
+
+.links img {
+    padding: 8px;
+}
+
+.copyright {
+    color: #DFEBE6;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
