@@ -49,16 +49,15 @@ footer {
 }
 
 .botoes {
-  border-color: #09B0E5;
-  border-radius: 0;
-  color: #09B0E5;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
+    border-color: #09B0E5;
+    border-radius: 0;
+    color: #09B0E5;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
 }
-
 
 .botoes:after {
     content: '';
@@ -77,36 +76,25 @@ footer {
 }
 
 .botoes:hover {
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .botoes:hover:after {
-  width: 110%;
+    width: 110%;
 }
 
 .botoes {
-  border: 0;
-  padding: 10px;
-  width: 386px;
-  height: 71px;
-  display: inline-block;
-  margin: 0 0 100px 470px;
-  cursor: pointer;
-  border-radius: 4px;
-  font-size: 40.botao assistir agora:after{
-  position: absolute;
-  display: block;
-  top:779;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 0;
-  height: 100%;
-  background: #09B0E5;
-  z-index: -1;
-  -webkit-transition: width 150ms ease-in-out;
-  transition: width 150ms ease-in-out;
+    border: 0;
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    margin: 0 0 100px 470px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 40px;
+    background-color: #1d1e1a;
 }
 
-.botao ver todas as categorias :after{
- 
+
+    
