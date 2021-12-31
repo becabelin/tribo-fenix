@@ -59,49 +59,21 @@ footer {
   transition: color 150ms ease-in-out;
 }
 
-.botao assistir agora:after{
-  position: absolute;
-  display: block;
-  top:779;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 0;
-  height: 100%;
-  background: #09B0E5;
-  z-index: -1;
-  -webkit-transition: width 150ms ease-in-out;
-  transition: width 150ms ease-in-out;
-}
 
-.botao ver todas as categorias :after{
-  position: absolute;
-  display: block;
-  top: 2264;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 0;
-  height: 100%;
-  background: #09B0E5;
-  z-index: -1;
-  -webkit-transition: width 150ms ease-in-out;
-  transition: width 150ms ease-in-out;
-}
-
-.botao central de ajuda:after{
-  position: absolute;
-  display: block;
-  top:4149;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 0;
-  height: 100%;
-  background: #09B0E5;
-  z-index: -1;
-  -webkit-transition: width 150ms ease-in-out;
-  transition: width 150ms ease-in-out;
+.botoes:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #09B0E5;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
 }
 
 .botoes:hover {
@@ -121,6 +93,20 @@ footer {
   margin: 0 0 100px 470px;
   cursor: pointer;
   border-radius: 4px;
-  font-size: 40px;
-    background-color: #1d1e1a;
+  font-size: 40.botao assistir agora:after{
+  position: absolute;
+  display: block;
+  top:779;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #09B0E5;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
 }
+
+.botao ver todas as categorias :after{
+ 
