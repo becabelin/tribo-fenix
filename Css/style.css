@@ -55,8 +55,8 @@ footer {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    -webkit-transition: color 150ms ease-in-out;
-    transition: color 150ms ease-in-out;
+    -webkit-transition: color 200ms ease-in-out;
+    transition: color 200ms ease-in-out;
 }
 
 .botoes:after {
@@ -71,8 +71,8 @@ footer {
     height: 100%;
     background: #09B0E5;
     z-index: -1;
-    -webkit-transition: width 150ms ease-in-out;
-    transition: width 150ms ease-in-out;
+    -webkit-transition: width 200ms ease-in-out;
+    transition: width 200ms ease-in-out;
 }
 
 .botoes:hover {
