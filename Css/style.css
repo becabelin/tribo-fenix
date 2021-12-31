@@ -47,3 +47,65 @@ footer {
     background: #1C1D19;
     box-shadow: 0px -20px 60px rgba(0, 0, 0, 0.25);
 }
+
+.botoes {
+  border-color: #09B0E5;
+  border-radius: 0;
+  color: #09B0E5;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+.botao assistir agora:after{
+  position: absolute;
+  display: block;
+  top:779;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #09B0E5;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+
+.botao ver todas as categorias :after{
+  position: absolute;
+  display: block;
+  top: 2264;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #09B0E5;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+
+.botoes:hover {
+  color: #FFFFFF;
+}
+
+.botoes:hover:after {
+  width: 110%;
+}
+
+.botoes {
+  border: 0;
+  padding: 10px;
+  width: 386px;
+  height: 71px;
+  display: inline-block;
+  margin: 0 0 100px 470px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 40px;
+    background-color: #1d1e1a;
+}
