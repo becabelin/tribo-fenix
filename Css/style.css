@@ -41,9 +41,14 @@ body {
 }
 
 footer {
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    width: auto;
+    height: 440px;
+    text-align: center;
+    align-items: center;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
     background: #1C1D19;
     box-shadow: 0px -20px 60px rgba(0, 0, 0, 0.25);
 }
@@ -95,6 +100,3 @@ footer {
     border: 3px 3px 3px 3px;
     border-color: #09B0E5;
 }
-
-
-    
