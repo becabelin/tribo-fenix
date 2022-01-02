@@ -13,7 +13,7 @@ main p {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #DFEBE6;
     font-size: 34px;
     line-height: 40px;
     margin-top: 40px;
@@ -36,31 +36,31 @@ form label {
     font-weight: bold;
     font-size: 34px;
     line-height: 40px;
-    color: #FFFFFF;
+    color: #DFEBE6;
     margin: 115px;
 }
 
 form input {
     width: 950px;
     height: 55px;
-    background: #C4C4C4;
+    background: #161614;
     border-radius: 4px;
     margin: 10px 115px 60px 115px;
     font-size: 30px;
     padding-left: 5px;
 }
 
-textarea{
+textarea {
     width: 950px;
     height: 165px;
-    background: #C4C4C4;
+    background: #161614;
     border-radius: 4px;
     margin: 10px 115px 60px 115px;
     font-size: 30px;
     padding-left: 5px;
 }
 
-.borda-formulario{
+.borda-formulario {
     display: block;
     text-align: center;
     width: 1200px;
@@ -73,20 +73,20 @@ textarea{
     padding-top: 40px;
 }
 
-.formulario{
+.formulario {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 34px;
     line-height: 40px;
     text-align: left;
-    color: #FFFFFF;
+    color: #DFEBE6;
 }
 
 .enviar {
     border-color: #09B0E5;
     border-radius: 0;
-    color:  #DFEBE6;
+    color: #DFEBE6;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -111,8 +111,8 @@ textarea{
 }
 
 .enviar:hover {
-    color:#DFEBE6;
-;
+    color: #DFEBE6;
+    ;
 }
 
 .enviar:hover:after {

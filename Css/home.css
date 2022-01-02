@@ -1,15 +1,17 @@
 .titulo-principal {
-    padding: 15px 0;
+    left: 120px;
+    top: 543px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 80px;
+    line-height: 94px;
     color: #DFEBE6;
 }
 
 .som-classificacao {
-    width: 152px;
-    height: 43px;
+    width: 241px;
+    height: 68px;
     left: 1128px;
     top: 765px;
 }
