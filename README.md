@@ -33,14 +33,14 @@ Veja seu [GitHub](https://github.com/Analugrr) e [LinkedIn](https://www.linkedin
 
 Isabelle Victoria é nossa designer 👨🏻‍💻
 <br>
-Veja seu [GitHub]() e [LinkedIn]()
+Veja seu [GitHub](https://github.com/Isabvictoriaps) e [LinkedIn](https://www.linkedin.com/in/isabellevictoria)
 
 <br>
 <img align="left" src="https://user-images.githubusercontent.com/69727594/147782304-2bcf5fcd-7486-44e1-b71f-1fd2a142a7ae.png" alt="Matheus Henrique" title="Matheus Henrique" width="130"><br>
 
 Matheus Henrique é dev no back-end 👨🏻‍💻
 <br>
-Veja seu [GitHub]() e [LinkedIn]()
+Veja seu [GitHub](https://github.com/Mathdesenv17) e [LinkedIn](http://www.linkedin.com/in/dev-matheus-henrique)
 
 <br><br>
 <img align="left" src="https://user-images.githubusercontent.com/69727594/147781539-44556dfc-3547-4135-838f-71174e288610.png" alt="Raissa Karoliny" title="Raissa Karoliny" width="130"><br>
