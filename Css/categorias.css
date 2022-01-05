@@ -7,6 +7,16 @@
     top: 256px
 }
 
+.mentalix {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 169px;
+
+    color: #FFFFFF;
+}
+
 .botoes:after {
     content: '';
     position: absolute;
