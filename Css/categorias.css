@@ -7,7 +7,13 @@
     left: 130px;
     top: 256px
 }
-
+.logopaisagem {
+        z-index: 1;
+  }
+  
+  .logopaisagem {
+    z-index: 3;
+  }
 
 .logopaisagem {
     position: absolute;
