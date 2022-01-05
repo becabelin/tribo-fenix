@@ -1,3 +1,5 @@
+<!--Quando for colocar os videos de cada categoria, pra cada tema colocar um id="nome da categoria" para a barra de pesquisa funcionar, exemplo: para os videos de bem estar antes de anexar, colocar id="Bem Estar".-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -21,11 +23,19 @@
             <a href="#navbar"><img class="categorias" alt="categorias" src="Assets/Categorias.png"></a>
             <a href="ajuda.html"><img class="ajuda" alt="ajuda" title="ajuda" src="Assets/Ajuda.png"></a>
         </div>
-     
-
+            
     </header>
     <main>
+        <div id="divBusca">
+  <img src="Assets/lupa.png" alt="Buscar..."/>
+  <input type="text" class="campo" placeholder="Buscar..."/>
+  <button id="btnBusca">Buscar</button>
+  <li class="sugestoes"></li> 
+</div>
+    
+
        <button class="botoes" input type="submit" onclick="clicked();"><img src= "Assets/Play.png"  height ="30" width="30"> CATEGORIAS </button>
+
     </main>
     <footer>
          <img src="Assets/Logo.png">
@@ -41,6 +51,40 @@
         </div>
         <p class="copyright">&copy; Copyright Mentalix - 2021</p>
     </footer>
+
+    <script type="text/javascript">
+
+        function autoComplete(saude) {
+
+            var categorias = [ "Alimentação", "Bem Estar", "Exercícios", "Saude Mental", "Skin Care", "Sono"];
+             return categorias.filter((valor) => {
+                var valorMinusculo = valor.toLowerCase()
+                var saudeMinusculo = saude.toLowerCase()
+
+                return valorMinusculo.includes(saudeMinusculo)
+          })
+        }
+
+        var campo = document.querySelector('.campo')
+        var sugestoes = document.querySelector('.sugestoes')
+
+        campo.addEventListener('input', ({ target }) => {
+        var dadosDoCampo = target.value
+        if(dadosDoCampo.length) {
+            var autoCompleteValores = autoComplete(dadosDoCampo)
+            sugestoes.innerHTML =  `
+            ${autoCompleteValores.map((value) => {
+   return (
+                   `<a href="#${value}"> <button>${value}</button>`
+                        )
+             }).join('')}
+           `
+       }
+})
+
+
+    </script>
+
 </body>
 
 </html>
