@@ -1,3 +1,43 @@
+.paisagem {
+    display: block;
+    margin: 0px auto;
+    position: absolute;
+    height: 585px;
+    width: 1200px;
+    left: 130px;
+    top: 256px
+}
+.logopaisagem {
+        z-index: 1;
+  }
+  
+  .logopaisagem {
+    z-index: 3;
+  }
+
+.logopaisagem {
+    position: absolute;
+    width: 96px;
+    height: 91px;
+    left: 1199px;
+    top: 299px;
+}
+
+.mentalix {
+    position: absolute;
+    width: 867px;
+    height: 270px;
+    left: 92px;
+    top: 829px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 169px;
+
+    color: #FFFFFF;
+}
+
 .botoes:after {
     content: '';
     position: absolute;
@@ -25,6 +65,7 @@
 .botoes {
     width: 361px;
     height: 55px;
+    top: 1044px;
     display: inline-block;
     margin: 0 0 100px 120px;
     cursor: pointer;
@@ -35,6 +76,7 @@
     border-color: #09B0E5;
 }
 
+<<<<<<< HEAD
 #divBusca{
   background-color:#DFEBE6;
   border:solid 2px #09B9E5;
@@ -85,3 +127,27 @@
 
 }
  
+=======
+footer {
+    width: 1440px;
+    height: 440px;
+    text-align: center;
+    background-color: #1d1e1a;
+    padding: 40px 0;
+    margin-top: 2060px;
+}
+
+.links {
+    padding: 8px 0;
+}
+
+.links img {
+    padding: 8px;
+}
+
+.copyright {
+    color: #DFEBE6;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+>>>>>>> a7303f43ba1ad697ed20345b81986783db0b2433
