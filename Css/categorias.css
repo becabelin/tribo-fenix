@@ -76,7 +76,6 @@
     border-color: #09B0E5;
 }
 
-<<<<<<< HEAD
 #divBusca{
   background-color:#DFEBE6;
   border:solid 2px #09B9E5;
@@ -116,18 +115,6 @@
 
 }
 
-#sugest{
-
-     background-color: transparent;
-  border-radius:12px;
-  width:auto;
-  height:auto;
-  margin-left: auto;
-  margin-right: auto;
-
-}
- 
-=======
 footer {
     width: 1440px;
     height: 440px;
@@ -150,4 +137,4 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
->>>>>>> a7303f43ba1ad697ed20345b81986783db0b2433
+
