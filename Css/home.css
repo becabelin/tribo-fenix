@@ -18,6 +18,58 @@
     left: 1193px;
     top: 765px;
 }
+.botaocategorias {
+    border-color: #09B0E5;
+    border-radius: 0;
+    color: #DFEBE6;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 200ms ease-in-out;
+    transition: color 200ms ease-in-out;
+}
+
+.botaocategorias:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #09B0E5;
+    z-index: -1;
+    -webkit-transition: width 200ms ease-in-out;
+    transition: width 200ms ease-in-out;
+}
+
+.botaocategorias:hover {
+    color: #DFEBE6;
+    ;
+}
+
+.botaocategorias:hover:after {
+    width: 110%;
+}
+
+.botaocategorias{
+    position: absolute;
+    width: 397px;
+    height: 70px;
+    top: 3900px;
+    left: 551px;
+    display: inline-block;
+    margin: 130px 395px 130px 405px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 40px;
+    background-color: #1d1e1a;
+    border: 3px 3px 3px 3px;
+    border-color: #09B0E5;
+}
+
 
 .botaoajuda {
     border-color: #09B0E5;
