@@ -180,8 +180,8 @@
 
 footer {
     position: absolute;
-    width: 1440px;
-    height: 440px;
+    width: 100%;
+    height: 100%;
     left: 0px;
     top: 4292px;    
     text-align: center;
