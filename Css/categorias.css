@@ -76,6 +76,148 @@
     border: 3px 3px 3px 3px;
     border-color: #09B0E5;
 }
+.saudemental{
+    position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 120px;
+    top: 1190px;
+    border-radius: 10px;
+}
+
+.saudementaltext{
+
+    position: absolute;
+    width: 242.7px;
+    height: 37px;
+    left: 120px;
+    top: 1496px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.exercicios{
+    position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 598.65px;
+    top: 1190px;
+    border-radius: 10px;
+}
+
+.exerciciostext{
+    position: absolute;
+    width: 242.7px;
+    height: 37px;
+    left: 599.17px;
+    top: 1496px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center
+}
+
+.alimentacao{
+    position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 1077.3px;
+    top: 1190px;
+    border-radius: 10px;
+}
+
+.alimentacaotext{
+    position: absolute;
+    width: 242.7px;
+    height: 37px;
+    left: 1077.3px;
+    top: 1496px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.bemestar{
+   position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 120px;
+    top: 1566.8px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.bemestartext{
+    position: absolute;
+    width: 242.7px;
+    height: 44px;
+    left: 120px;
+    top: 1881px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.saudedosono{
+    position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 598.65px;
+    top: 1566.8px;
+    border-radius: 10px;    
+}
+
+.saudedosonotext{
+    position: absolute;
+    width: 242.7px;
+    height: 44px;
+    left: 599.17px;
+    top: 1881px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.skincare{
+    position: absolute;
+    width: 242.7px;
+    height: 272.14px;
+    left: 1077.3px;
+    top: 1566.8px;
+    border-radius: 10px;
+}
+
+.skincaretext{
+    position: absolute;
+    width: 242.7px;
+    height: 44px;
+    left: 1077.3px;
+    top: 1881px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+}
 
 #divBusca{
   background-color:#DFEBE6;
