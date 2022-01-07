@@ -96,12 +96,11 @@
 
 .botaocategorias{
     position: absolute;
-    width: 397px;
+    width: 480px;
     height: 70px;
-    left: 551px;
     top: 2280px;
     display: inline-block;
-    margin: 130px 395px 130px 405px;
+    margin: 13px 3px 13px 405px;
     cursor: pointer;
     border-radius: 4px;
     font-size: 40px;
@@ -149,27 +148,27 @@
 }
 
 .botaoajuda { 
-    position: absolute;
     width: 386px;
     height: 71px;
-    left: 150px;
+    left: 527px;
     top: 4149px;
     display: inline-block;
-    margin: 130px 395px 130px 405px;
+    margin: 50px 395px 130px 50px;
     cursor: pointer;
     border-radius: 4px;
     font-size: 40px;
     background-color: #1d1e1a;
     border: 3px 3px 3px 3px;
-    border-color: #09B0E5;
+    border-color:#09B0E5;
 }
+
 .textoajuda{
     
     position: absolute;
     width: 794px;
     height: 45px;
     left: 323px;
-    top: 4055px;
+    top: 4149px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -187,7 +186,7 @@ footer {
     text-align: center;
     background-color: #1d1e1a;
     padding: 40px 0;
-    margin-top: 440px;
+    margin-top: 400px;
 }
 
 .links {
