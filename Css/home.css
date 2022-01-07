@@ -50,7 +50,7 @@
     width: 997px;
     height: 42px;
     left: 120px;
-    top: 2819px;
+    top: 2780px;
 
     font-family: Roboto;
     font-style: normal;
@@ -58,6 +58,163 @@
     font-size: 34px;
     line-height: 40px;
 }
+
+.alisson{
+
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    left: 338px;
+    top: 2911px;
+}
+
+.alissontext{
+    position: absolute;
+    width: 274px;
+    height: 40px;
+    left: 305px;
+    top: 3142px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.ana {
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    left: 616px;
+    top: 2911px;
+}
+.anatext{
+
+    position: absolute;
+    width: 273px;
+    height: 40px;
+    left: 584px;
+    top: 3142px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.isabelle{
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    left: 894px;
+    top: 2898px;
+}
+
+.isabelletext{
+    position: absolute;
+    width: 274px;
+    height: 40px;
+    left: 862px;
+    top: 3142px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.matheus{
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    left: 338px;
+    top: 3269px;
+}
+
+.matheustext{
+    position: absolute;
+    width: 273px;
+    height: 40px;
+    left: 306px;
+    top: 3500px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.raissa{
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    left: 623px;
+    top: 3269px;
+}
+
+.raissatext{
+    position: absolute;
+    width: 274px;
+    height: 40px;
+    left: 584px;
+    top: 3500px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.rebeca{
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    left: 893px;
+    top: 3269px
+}
+
+.rebecatext{
+    position: absolute;
+    width: 273px;
+    height: 40px;
+    left: 861px;
+    top: 3500px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.tharllyene{
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    left: 623px;
+    top: 3627px;
+}
+
+.tharllyenetext{
+    position: absolute;
+    width: 273px;
+    height: 40px;
+    left: 584px;
+    top: 3858px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
 .botaocategorias {
     border-color: #09B0E5;
     border-radius: 0;
