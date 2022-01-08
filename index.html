@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Mentalix</title>
 
+    <link rel="icon" href="Assets/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="Css/home.css">
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -26,9 +27,29 @@
     <main>
       <h1 class="titulo-principal">Título do vídeo principal</h1>
         <img class="som-classificacao" alt="som e classificação" src="Assets/Som e classificação.png">
-        <p class="categorias">Saúde mental</p>
-        <p class="categorias">Exercícios</p>
-        <p class="categorias">Alimentação</p>
+        
+        <h2 class="saude">Saúde mental</h2>
+        <div class="container">
+        <button type="button" id="moveLeft" class="btn-nav">
+      ᐊ
+    </button>
+    <div class="container-indicators">
+    <div class="indicator active" data-index=0></div>
+    <div class="indicator" data-index=1></div>
+    </div>
+    <div class="slider" id="mySlider">
+    <div class="movie" id="movie0">
+        <img src="miniaturas/saude mental 1.jpg">
+    <div class="description">
+    <div class="description__buttons-container">
+    </div></div></div></div>
+    <button type="button" id="moveRight" class="btn-nav">
+      ᐅ
+    </button>
+    </div>
+    <script src="JavaScript/script.js"></script>
+
+
         <button class="botaocategorias">Ver todas as categorias</button>
         <h1>Sobre a Mentalix</h1>
         <p>Mentalix é uma rede de streaming baseada em temas de saúde no geral.<br> Teremos categorias de saúde mental, alimentar, física e etc. Ou seja, nosso <br>site é voltado para o autocuidado com o corpo e a mente.</p>
@@ -59,7 +80,7 @@
         <p class="tharllyenetext">Tharllyene Soares<br>Front-end e Back-end</p>
 
         <p>Está com dúvidas? Visite a nossa central de ajuda!</p>
-        <button>Central de ajuda</button>
+        <button class= "botaocategorias">Central de ajuda</button>
     </main>
 
     <footer>
