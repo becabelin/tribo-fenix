@@ -23,16 +23,16 @@
     top: 299px;
 }
 
-.mentalix {
+.categorias- {
     position: absolute;
     width: 867px;
     height: 270px;
-    left: 92px;
+    left: 130px;
     top: 829px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 144px;
+    font-size: 80px;
     line-height: 169px;
 
     color: #FFFFFF;
@@ -94,7 +94,7 @@
     width: 242.7px;
     height: 37px;
     left: 120px;
-    top: 1496px;
+    top: 1440px;
 
     font-family: Roboto;
     font-style: normal;
@@ -118,7 +118,7 @@
     width: 242.7px;
     height: 37px;
     left: 599.17px;
-    top: 1496px;
+    top: 1440px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -141,7 +141,7 @@
     width: 242.7px;
     height: 37px;
     left: 1077.3px;
-    top: 1496px;
+    top: 1440px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -155,7 +155,7 @@
     width: 242.7px;
     height: 272.14px;
     left: 120px;
-    top: 1566.8px;
+    top: 1595px;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 10px;
@@ -166,7 +166,7 @@
     width: 242.7px;
     height: 44px;
     left: 120px;
-    top: 1881px;
+    top: 1839px;
 
     font-family: Roboto;
     font-style: normal;
@@ -181,7 +181,7 @@
     width: 242.7px;
     height: 272.14px;
     left: 598.65px;
-    top: 1566.8px;
+    top: 1595px;
     border-radius: 10px;    
 }
 
@@ -190,7 +190,7 @@
     width: 242.7px;
     height: 44px;
     left: 599.17px;
-    top: 1881px;
+    top: 1839px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -204,7 +204,7 @@
     width: 242.7px;
     height: 272.14px;
     left: 1077.3px;
-    top: 1566.8px;
+    top: 1595px;
     border-radius: 10px;
 }
 
@@ -213,7 +213,7 @@
     width: 242.7px;
     height: 44px;
     left: 1077.3px;
-    top: 1881px;
+    top: 1839px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
