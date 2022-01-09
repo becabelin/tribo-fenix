@@ -62,6 +62,7 @@
     width: 110%;
 }
 
+
 .botoes {
     position: absolute;
     width: 361px;
@@ -76,6 +77,8 @@
     border: 3px 3px 3px 3px;
     border-color: #09B0E5;
 }
+
+
 .saudemental{
     position: absolute;
     width: 242.7px;
