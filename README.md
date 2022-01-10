@@ -1,13 +1,21 @@
-# 🖥️ Desafio final - #OTechTáOn
-## 🕊️🍃 Mentalix
-Mentalix é uma rede de streaming baseada em temas de saúde no geral. Temos categorias que vão desde saúde mental até cuidados com a pele (skin care). Ou seja, nosso site é voltado para o autocuidado com o corpo e a mente.
+#### 🖥️ Desafio final - #OTechTáOn
+# 🕊️🍃 Mentalix
+A Mentalix é uma rede de streaming baseada em temas de saúde no geral. Temos categorias que vão desde saúde mental até cuidados com a pele (skin care). Ou seja, nosso site é voltado para o autocuidado com o corpo e a mente.
 
 <br>
 
-🖥️ **Linguagens utilizadas:**<br><br>
+🖥️ **Linguagens de programação:**<br><br>
 <img align="center" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white&color=09B0E5" alt="JavaScript" title="JavaScript">
 <img align="center" src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white&color=09B0E5" alt="HTML" title="HTML">
 <img align="center" src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white&color=09B0E5" alt="CSS" title="CSS">
+
+<br>
+
+✏️ **Ferramentas utilizadas:**<br><br>
+<img align="center" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&color=09B0E5" alt="Figma" title="Figma">
+<img align="center" src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white&color=09B0E5" alt="Trello" title="Trello">
+<img align="center" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white&color=09B0E5" alt="GIT" title="GIT">
+<img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=09B0E5" alt="GitHub" title="GitHub">
 
 <br>
 
@@ -24,14 +32,14 @@ Veja seu [GitHub](https://github.com/Alissonbosco) e [LinkedIn](http://linkedin.
 <br>
 <img align="left" src="https://user-images.githubusercontent.com/69727594/147781522-a9fa3c3f-82b5-4334-9bde-321a59feb66e.png" alt="Ana Luiza Cardoso" title="Ana Luiza Cardoso" width="130"><br>
 
-Ana Luiza Cardoso é dev no front-end 👨🏻‍💻
+Ana Luiza Cardoso é dev no front-end 👩🏻‍💻
 <br>
 Veja seu [GitHub](https://github.com/Analugrr) e [LinkedIn](https://www.linkedin.com/in/ana-lu%C3%ADza-cardoso-guerra-freitas)
 
 <br><br>
 <img align="left" src="https://user-images.githubusercontent.com/69727594/147781528-3f76817d-3e87-433f-ad6e-ede9b2b32878.png" alt="Isabelle Victoria" title="Isabelle Victoria" width="130"><br>
 
-Isabelle Victoria é nossa designer 👨🏻‍💻
+Isabelle Victoria é nossa designer 👩🏻‍🎨
 <br>
 Veja seu [GitHub](https://github.com/Isabvictoriaps) e [LinkedIn](https://www.linkedin.com/in/isabellevictoria)
 
@@ -45,21 +53,26 @@ Veja seu [GitHub](https://github.com/Mathdesenv17) e [LinkedIn](http://www.linke
 <br><br>
 <img align="left" src="https://user-images.githubusercontent.com/69727594/147781539-44556dfc-3547-4135-838f-71174e288610.png" alt="Raissa Karoliny" title="Raissa Karoliny" width="130"><br>
 
-Raissa Karoliny é nossa designer 👨🏻‍💻
+Raissa Karoliny é nossa designer 👩🏻‍🎨
 <br>
 Veja seu [GitHub](http://github.com/Raissakarolliny) e [LinkedIn](https://www.linkedin.com/in/raissa-rodrigues-829800224)
 
 <br>
 <img align="left" src="https://user-images.githubusercontent.com/69727594/147781541-2ed7e92d-b418-4540-b987-33cf4a6c2948.png" alt="Rebeca Alves" title="Rebeca Alves" width="130"><br>
 
-Rebeca Alves é nossa designer e dev no front-end 👨🏻‍💻
+Rebeca Alves é nossa designer e dev no front-end 👩🏻‍🎨
 <br>
 Veja seu [GitHub](https://github.com/becabelin) e [LinkedIn](http://linkedin.com/in/rebecalvesousa)
 
 <br><br>
 <img align="left" src="https://user-images.githubusercontent.com/69727594/147781543-7bd4919a-14e0-4aae-a0fe-7130e9ef7d69.png" alt="Tharllyene Soares" title="Tharllyene Soares" width="130"><br>
 
-Tharllyene Soares é dev no front-end e back-end 👨🏻‍💻
+Tharllyene Soares é dev no front-end e back-end 👩🏻‍💻
 <br>
 Veja seu [GitHub](https://github.com/Tharllyene) e [LinkedIn](https://www.linkedin.com/in/tharllyene-soares-73b661203)
 
+<br><br><br>
+
+✨ **Esperamos que gostem do nosso projeto!**<br>
+🍃 [Wireframes e protótipo](https://www.figma.com/file/brqwqnaSdLg1QYLtohYKHS/Mentalix?node-id=0%3A1)<br>
+📆 [Organização](https://trello.com/b/yffyWGxS/tribo-f%C3%AAnix)
