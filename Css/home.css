@@ -1,6 +1,5 @@
-
 .titulo-principal {
-    position: absolute ;
+    position: absolute;
     width: 600px;
     height: 183px;
     left: 120px;
@@ -21,334 +20,401 @@
 }
 
 :root {
-  --movie-width: 24vw;
-  --movie-height: 150px;
-  --slider-py: 200px;
-}
-@media only screen and (max-width: 1000px) {
-  :root {
-    --movie-width: 25vw;
-  }
+    --movie-width: 24vw;
+    --movie-height: 150px;
+    --slider-py: 200px;
 }
 
-.saude{
-  font-size: 34px;
-  font-family: roboto;
-  color: #DFEBE6;
-  margin-top: 100px;
-  padding-top:0 auto;
-  position: absolute;
+@media only screen and (max-width: 1000px) {
+     :root {
+        --movie-width: 25vw;
+    }
+}
+
+.saude {
+    font-size: 34px;
+    font-family: roboto;
+    color: #DFEBE6;
+    margin-top: 100px;
+    padding-top: 0 auto;
+    position: absolute;
 }
 
 .container {
-  position: relative;
-  padding: 0 auto;
-  margin-top: 800px;
+    position: relative;
+    padding: 0 auto;
+    margin-top: 800px;
 }
+
 
 /* THE SLIDER CONTAINER */
 
 .slider {
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  white-space: nowrap;
-  position: relative;
-  padding-top: var(--slider-py);
-  padding-bottom: var(--slider-py) 50px;
-  margin-bottom: 100px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding-top: var(--slider-py);
+    padding-bottom: var(--slider-py) 50px;
+    margin-bottom: 100px;
 }
+
 
 /* SLIDER INDICATORS */
 
 .container-indicators {
-  width: 100px;
-  position: absolute;
-  right: 0;
-  top: calc(var(--slider-py) - 60px);
-  visibility: hidden;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: calc(var(--slider-py) - 60px);
+    visibility: hidden;
 }
 
 .indicator {
-  width: 15px;
-  height: 2px;
-  background-color: grey;
-  display: inline-block;
+    width: 15px;
+    height: 2px;
+    background-color: grey;
+    display: inline-block;
 }
 
 .indicator.active {
-  background-color: white;
+    background-color: white;
 }
+
 
 /* photo ELEMENTS!*/
 
 .movie {
-  width: var(--movie-width);
-  height: var(--movie-height);
-  display: inline-block;
-  position: relative;
-  color: white;
-  padding: 0 2px;
-  font-size: 0.8rem;
-  transition: all 0.8s ease-in-out;
+    width: var(--movie-width);
+    height: var(--movie-height);
+    display: inline-block;
+    position: relative;
+    color: white;
+    padding: 0 2px;
+    font-size: 0.8rem;
+    transition: all 0.8s ease-in-out;
 }
 
 .movie:nth-of-type(1) {
-  margin-left: var(--arrow-width);
+    margin-left: var(--arrow-width);
 }
 
 .movie img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  border-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 @media only screen and (min-width: 900px) {
-  .movie:hover {
-    transform: scale(1.3);
-    z-index: 2;
-  }
-
-/*BUTTONS*/
-
-.btn-nav {
-  width: var(--arrow-width);
-  height: var(--movie-height);
-  border-radius: 5px;
-  position: absolute;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-  outline: none;
-  border: none;
-  color: white;
-  top: var(--slider-py);
-  z-index: 5;
-  visibility: hidden;
+    .movie:hover {
+        transform: scale(1.3);
+        z-index: 2;
+    }
+    /*BUTTONS*/
+    .btn-nav {
+        width: var(--arrow-width);
+        height: var(--movie-height);
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        outline: none;
+        border: none;
+        color: white;
+        top: var(--slider-py);
+        z-index: 5;
+        visibility: hidden;
+    }
+    #moveLeft {
+        left: 0;
+        cursor: pointer;
+    }
+    #moveRight {
+        right: 0;
+        cursor: pointer;
+    }
+    @media only screen and (max-width: 900px) {
+        .btn-nav {
+            display: none;
+        }
+    }
+    @media only screen and (min-width: 901px) {
+        .container:hover .btn-nav,
+        .container:hover .container-indicators {
+            visibility: visible;
+        }
+    }
+    .Sobre {
+        position: absolute;
+        width: 1200px;
+        height: 91px;
+        left: 120px;
+        top: 2380px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 94px;
+    }
+    .sobrementalix {
+        position: absolute;
+        width: 997px;
+        height: 163px;
+        left: 120px;
+        top: 2500px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .time {
+        position: absolute;
+        width: 997px;
+        height: 42px;
+        left: 120px;
+        top: 2750px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .alisson {
+        position: absolute;
+        width: 208px;
+        height: 208px;
+        left: 338px;
+        top: 2911px;
+    }
+    .alissontext {
+        position: absolute;
+        width: 274px;
+        height: 40px;
+        left: 305px;
+        top: 3142px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .alissonfunction {
+        position: absolute;
+        width: 274px;
+        height: 40px;
+        left: 305px;
+        top: 3142px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .ana {
+        position: absolute;
+        width: 208px;
+        height: 208px;
+        left: 616px;
+        top: 2911px;
+    }
+    .anatext {
+        position: absolute;
+        width: 273px;
+        height: 40px;
+        left: 584px;
+        top: 3142px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .anafunction {
+        position: absolute;
+        width: 273px;
+        height: 40px;
+        left: 584px;
+        top: 3142px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .isabelle {
+        position: absolute;
+        width: 208px;
+        height: 208px;
+        left: 894px;
+        top: 2898px;
+    }
+    .isabelletext {
+        position: absolute;
+        width: 274px;
+        height: 40px;
+        left: 862px;
+        top: 3142px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .isabellefunction {
+        position: absolute;
+        width: 274px;
+        height: 40px;
+        left: 862px;
+        top: 3142px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .matheus {
+        position: absolute;
+        width: 208px;
+        height: 208px;
+        left: 338px;
+        top: 3269px;
+    }
+    .matheustext {
+        position: absolute;
+        width: 273px;
+        height: 40px;
+        left: 306px;
+        top: 3500px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .matheusfunction {
+        position: absolute;
+        width: 273px;
+        height: 40px;
+        left: 306px;
+        top: 3500px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .raissa {
+        position: absolute;
+        width: 208px;
+        height: 208px;
+        left: 623px;
+        top: 3269px;
+    }
+    .raissatext {
+        position: absolute;
+        width: 274px;
+        height: 40px;
+        left: 584px;
+        top: 3500px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .raissafunction {
+        position: absolute;
+        width: 274px;
+        height: 40px;
+        left: 584px;
+        top: 3500px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .rebeca {
+        position: absolute;
+        width: 208px;
+        height: 208px;
+        left: 893px;
+        top: 3269px
+    }
+    .rebecatext {
+        position: absolute;
+        width: 273px;
+        height: 40px;
+        left: 861px;
+        top: 3500px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .rebecafunction {
+        position: absolute;
+        width: 273px;
+        height: 40px;
+        left: 861px;
+        top: 3500px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .tharllyene {
+        position: absolute;
+        width: 208px;
+        height: 208px;
+        left: 623px;
+        top: 3627px;
+    }
+    .tharllyenetext {
+        position: absolute;
+        width: 273px;
+        height: 40px;
+        left: 584px;
+        top: 3858px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .tharllyenefunction {
+        position: absolute;
+        width: 273px;
+        height: 40px;
+        left: 584px;
+        top: 3858px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+    }
 }
 
-#moveLeft {
-  left: 0;
-  cursor: pointer;
-}
-
-#moveRight {
-  right: 0;
-  cursor: pointer;
-}
-
-@media only screen and (max-width: 900px) {
-  .btn-nav {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 901px) {
-  .container:hover .btn-nav,
-  .container:hover .container-indicators {
-    visibility: visible;
-  }
-}
-
-.Sobre{
-    position: absolute;
-    width: 1200px;
-    height: 91px;
-    left: 120px;
-    top: 2380px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 94px;
-}
-
-.sobrementalix{
-    position: absolute;
-    width: 997px;
-    height: 163px;
-    left: 120px;
-    top: 2500px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 40px;
-}
-
-.time{
-    position: absolute;
-    width: 997px;
-    height: 42px;
-    left: 120px;
-    top: 2750px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 40px;
-}
-
-.alisson {
-
-
-   position: absolute;
-    width: 208px;
-    height: 208px;
-    left: 338px;
-    top: 2911px;
-
-}
-
-.alissontext{
-    position: absolute;
-    width: 274px;
-    height: 40px;
-    left: 305px;
-    top: 3142px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-}
-
-.ana {
-    position: absolute;
-    width: 208px;
-    height: 208px;
-    left: 616px;
-    top: 2911px;
-}
-.anatext{
-
-    position: absolute;
-    width: 273px;
-    height: 40px;
-    left: 584px;
-    top: 3142px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-}
-
-.isabelle{
-    position: absolute;
-    width: 208px;
-    height: 208px;
-    left: 894px;
-    top: 2898px;
-}
-
-.isabelletext{
-    position: absolute;
-    width: 274px;
-    height: 40px;
-    left: 862px;
-    top: 3142px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-}
-
-.matheus{
-    position: absolute;
-    width: 208px;
-    height: 208px;
-    left: 338px;
-    top: 3269px;
-}
-
-.matheustext{
-    position: absolute;
-    width: 273px;
-    height: 40px;
-    left: 306px;
-    top: 3500px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-}
-
-.raissa{
-    position: absolute;
-    width: 208px;
-    height: 208px;
-    left: 623px;
-    top: 3269px;
-}
-
-.raissatext{
-    position: absolute;
-    width: 274px;
-    height: 40px;
-    left: 584px;
-    top: 3500px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-}
-
-.rebeca{
-    position: absolute;
-    width: 208px;
-    height: 208px;
-    left: 893px;
-    top: 3269px
-}
-
-.rebecatext{
-    position: absolute;
-    width: 273px;
-    height: 40px;
-    left: 861px;
-    top: 3500px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-}
-
-.tharllyene{
-    position: absolute;
-    width: 208px;
-    height: 208px;
-    left: 623px;
-    top: 3627px;
-}
-
-.tharllyenetext{
-    position: absolute;
-    width: 273px;
-    height: 40px;
-    left: 584px;
-    top: 3858px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-}
-
-
-}
 .botaocategorias {
     border-color: #09B0E5;
     border-radius: 0;
@@ -385,8 +451,7 @@
     width: 110%;
 }
 
-
-.botaocategorias{
+.botaocategorias {
     position: absolute;
     width: 450px;
     height: 70px;
@@ -400,8 +465,6 @@
     border: 3px 3px 3px 3px;
     border-color: #09B0E5;
 }
-
-
 
 .botaoajuda {
     border-color: #09B0E5;
@@ -439,7 +502,7 @@
     width: 110%;
 }
 
-.botaoajuda { 
+.botaoajuda {
     position: absolute;
     width: 386px;
     height: 71px;
@@ -452,11 +515,10 @@
     font-size: 40px;
     background-color: #1d1e1a;
     border: 3px 3px 3px 3px;
-    border-color:#09B0E5;
+    border-color: #09B0E5;
 }
 
-.textoajuda{
-    
+.textoajuda {
     position: absolute;
     width: 794px;
     height: 45px;
@@ -473,12 +535,11 @@
 footer {
     position: absolute;
     width: 100%;
-    height: 100%;  
-    top: 4292px;    
+    height: 100%;
+    top: 4292px;
     text-align: center;
     background-color: #1d1e1a;
     padding: 40px 0;
-   
 }
 
 .links {
