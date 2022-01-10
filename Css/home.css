@@ -151,7 +151,7 @@
         width: 1200px;
         height: 91px;
         left: 120px;
-        top: 2380px;
+        top: 1410px;
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
@@ -163,7 +163,7 @@
         width: 997px;
         height: 163px;
         left: 120px;
-        top: 2500px;
+        top: 1540px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -175,7 +175,7 @@
         width: 997px;
         height: 42px;
         left: 120px;
-        top: 2750px;
+        top: 1755px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -187,14 +187,14 @@
         width: 208px;
         height: 208px;
         left: 338px;
-        top: 2911px;
+        top: 1900px;
     }
     .alissontext {
         position: absolute;
         width: 274px;
         height: 40px;
         left: 305px;
-        top: 3142px;
+        top: 2131px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -207,7 +207,7 @@
         width: 274px;
         height: 40px;
         left: 305px;
-        top: 3142px;
+        top: 2131px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -220,14 +220,14 @@
         width: 208px;
         height: 208px;
         left: 616px;
-        top: 2911px;
+        top: 1900px;
     }
     .anatext {
         position: absolute;
         width: 273px;
         height: 40px;
         left: 584px;
-        top: 3142px;
+        top: 2131px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -240,7 +240,7 @@
         width: 273px;
         height: 40px;
         left: 584px;
-        top: 3142px;
+        top: 2131px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -253,14 +253,14 @@
         width: 208px;
         height: 208px;
         left: 894px;
-        top: 2898px;
+        top: 1900px;
     }
     .isabelletext {
         position: absolute;
         width: 274px;
         height: 40px;
         left: 862px;
-        top: 3142px;
+        top: 2131px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -273,7 +273,7 @@
         width: 274px;
         height: 40px;
         left: 862px;
-        top: 3142px;
+        top: 2131px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -286,14 +286,14 @@
         width: 208px;
         height: 208px;
         left: 338px;
-        top: 3269px;
+        top: 2260px;
     }
     .matheustext {
         position: absolute;
         width: 273px;
         height: 40px;
         left: 306px;
-        top: 3500px;
+        top: 2490px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -306,7 +306,7 @@
         width: 273px;
         height: 40px;
         left: 306px;
-        top: 3500px;
+        top: 2490px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -319,14 +319,14 @@
         width: 208px;
         height: 208px;
         left: 623px;
-        top: 3269px;
+        top: 2260px;
     }
     .raissatext {
         position: absolute;
         width: 274px;
         height: 40px;
         left: 584px;
-        top: 3500px;
+        top: 2490px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -339,7 +339,7 @@
         width: 274px;
         height: 40px;
         left: 584px;
-        top: 3500px;
+        top: 2490px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -352,14 +352,14 @@
         width: 208px;
         height: 208px;
         left: 893px;
-        top: 3269px
+        top: 2260px
     }
     .rebecatext {
         position: absolute;
         width: 273px;
         height: 40px;
         left: 861px;
-        top: 3500px;
+        top: 2490px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -372,7 +372,7 @@
         width: 273px;
         height: 40px;
         left: 861px;
-        top: 3500px;
+        top: 2490px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -385,14 +385,14 @@
         width: 208px;
         height: 208px;
         left: 623px;
-        top: 3627px;
+        top: 2620px;
     }
     .tharllyenetext {
         position: absolute;
         width: 273px;
         height: 40px;
         left: 584px;
-        top: 3858px;
+        top: 2850px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -405,7 +405,7 @@
         width: 273px;
         height: 40px;
         left: 584px;
-        top: 3858px;
+        top: 2850px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -455,9 +455,9 @@
     position: absolute;
     width: 450px;
     height: 70px;
-    top: 2280px;
+    top: 1320px;
     display: inline-block;
-    margin: 13px 3px 13px 450px;
+    margin: 13px 3px 13px 550px;
     cursor: pointer;
     border-radius: 4px;
     font-size: 40px;
@@ -507,7 +507,7 @@
     width: 386px;
     height: 71px;
     left: 527px;
-    top: 4149px;
+    top: 3120px;
     display: inline-block;
     margin: 13px 12px 13px 50px;
     cursor: pointer;
@@ -523,7 +523,7 @@
     width: 794px;
     height: 45px;
     left: 323px;
-    top: 4055px;
+    top: 3000px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -535,8 +535,7 @@
 footer {
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 4292px;
+    top: 3250px;
     text-align: center;
     background-color: #1d1e1a;
     padding: 40px 0;
