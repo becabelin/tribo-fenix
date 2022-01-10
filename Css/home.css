@@ -3,7 +3,7 @@
     width: 600px;
     height: 183px;
     left: 120px;
-    top: 543px;
+    top: 400px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -16,7 +16,7 @@
     width: 184px;
     height: 68px;
     left: 1240px;
-    top: 765px;
+    top: 600px;
 }
 
 :root {
@@ -35,15 +35,15 @@
     font-size: 34px;
     font-family: roboto;
     color: #DFEBE6;
-    margin-top: 100px;
+    margin-top: 760px;
     padding-top: 0 auto;
     position: absolute;
 }
 
 .container {
-    position: relative;
+    position: absolute;
     padding: 0 auto;
-    margin-top: 800px;
+    margin-top: 680px;
 }
 
 
