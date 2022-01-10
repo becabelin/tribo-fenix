@@ -46,7 +46,6 @@ function populateSlider() {
         let clone = newMovie.cloneNode(true);
         let img = clone.querySelector("img");
         img.src = image.src;
-        img.href = image.href;
 
         slider.insertBefore(clone, slider.childNodes[slider.childNodes.length - 1]);
     });
@@ -58,12 +57,6 @@ populateSlider();
 const initialMovie = document.getElementById("movie0");
 initialMovie.remove();
 
-slider.addEventListener("click", (event) => {
-    if (event.target.tagName === "IMG") {
-        window.open(event.target.href, "_blank");
-    }
-})
-
 function updateIndicators(index) {
     indicators.forEach((indicator) => {
         indicator.classList.remove("active");
@@ -71,6 +64,12 @@ function updateIndicators(index) {
     let newActiveIndicator = indicators[index];
     newActiveIndicator.classList.add("active");
 }
+
+slider.addEventListener("click", (event) => {
+    if (event.target.tagName === "IMG") {
+        window.open(event.target.href, "_blank");
+    }
+})
 
 // Scroll Left button
 btnLeft.addEventListener("click", (e) => {
