@@ -41,9 +41,9 @@
 }
 
 .container {
-    position: relative;
+    position: absolute;
     padding: 0 auto;
-    margin-top: 180px;
+    margin-top: 680px;
 }
 
 
