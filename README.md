@@ -1,7 +1,6 @@
 #### 🖥️ Desafio final - #OTechTáOn
 # 🕊️🍃 Mentalix
-A Mentalix é uma rede de streaming baseada em temas de saúde no geral. Temos categorias que vão desde saúde mental <br>
-até cuidados com a pele (skin care). Ou seja, nosso site é voltado para o autocuidado com o corpo e a mente.
+A Mentalix é uma rede de streaming baseada em temas de saúde no geral. Temos categorias que vão desde saúde mental até cuidados com a pele (skin care). Ou seja, nosso site é voltado para o autocuidado com o corpo e a mente.
 
 <br>
 
